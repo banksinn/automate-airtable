@@ -12,7 +12,7 @@ An automated testing solution for filling Airtable forms with task data using Pl
 - [Data Format](#-data-format)
 - [Available Scripts](#-available-scripts)
 - [Project Structure](#-project-structure)
-- [Task Types](#️-task-types)
+- [Task Types](#%EF%B8%8F-task-types)
 - [Troubleshooting](#-troubleshooting)
 
 ## ✨ Features
@@ -129,7 +129,7 @@ pnpm test:codegen
 - **Date key** (`"2025-08-07"`): Date in YYYY-MM-DD format
 - **taskItem**: Brief task title/description for the "Task Item" field
 - **taskNote**: Detailed description for the "Task Note" field
-- **type**: Task category (see [Task Types](#-task-types))
+- **type**: Task category (see [Task Types](#%EF%B8%8F-task-types))
 - **hours**: Time spent on the task (as string)
 
 ## 📜 Available Scripts
