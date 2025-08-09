@@ -1,0 +1,22 @@
+{
+  "2025-08-08": [
+    {
+      "taskItem": "Standup Meeting",
+      "taskNote": "Standup Meeting",
+      "type": "meeting",
+      "hours": "1"
+    },
+    {
+      "taskItem": "กินข้าว",
+      "taskNote": "กินข้าว",
+      "type": "idle",
+      "hours": "1"
+    },
+    {
+      "taskItem": "[BE] เพิ่ม toggle สำหรับเปิดปิดการใช้งาน certificate ของ classroom",
+      "taskNote": "support พี่นน และแก้บัค update class certificate",
+      "type": "work",
+      "hours": "6"
+    }
+  ]
+}
