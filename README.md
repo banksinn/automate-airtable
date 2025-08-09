@@ -4,16 +4,16 @@ An automated testing solution for filling Airtable forms with task data using Pl
 
 ## 📋 Table of Contents
 
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [Data Format](#data-format)
-- [Available Scripts](#available-scripts)
-- [Project Structure](#project-structure)
-- [Task Types](#task-types)
-- [Troubleshooting](#troubleshooting)
+- [Features](#-features)
+- [Prerequisites](#-prerequisites)
+- [Installation](#-installation)
+- [Configuration](#️-configuration)
+- [Usage](#-usage)
+- [Data Format](#-data-format)
+- [Available Scripts](#-available-scripts)
+- [Project Structure](#-project-structure)
+- [Task Types](#️-task-types)
+- [Troubleshooting](#-troubleshooting)
 
 ## ✨ Features
 
@@ -90,7 +90,7 @@ npx playwright test tests/airtable.spec.ts
 npx playwright test
 
 # Generate new test code
-pnpm run test:codegen
+pnpm test:codegen
 ```
 
 ## 📄 Data Format
@@ -137,9 +137,9 @@ pnpm run test:codegen
 | Script | Description |
 |--------|-------------|
 | `pnpm test` | Run tests in headed mode (browser visible) |
-| `pnpm run test:debug` | Run tests in debug mode with step-by-step execution |
-| `pnpm run test:report` | Open the HTML test report |
-| `pnpm run test:codegen` | Open Playwright codegen for the Airtable form |
+| `pnpm test:debug` | Run tests in debug mode with step-by-step execution |
+| `pnpm test:report` | Open the HTML test report |
+| `pnpm test:codegen` | Open Playwright codegen for the Airtable form |
 
 ## 📁 Project Structure
 
