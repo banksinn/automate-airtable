@@ -66,7 +66,7 @@ The project includes authentication setup that saves login state:
 
 ### Basic Usage
 
-1. **Prepare your task data**: Update `task-data.json` with your tasks (see [Data Format](#data-format))
+1. **Prepare your task data**: Update `task-data.json` with your tasks (see [Data Format](#-data-format))
 
 2. **Run the automation**:
 ```bash
@@ -129,7 +129,7 @@ pnpm test:codegen
 - **Date key** (`"2025-08-07"`): Date in YYYY-MM-DD format
 - **taskItem**: Brief task title/description for the "Task Item" field
 - **taskNote**: Detailed description for the "Task Note" field
-- **type**: Task category (see [Task Types](#task-types))
+- **type**: Task category (see [Task Types](#-task-types))
 - **hours**: Time spent on the task (as string)
 
 ## 📜 Available Scripts
