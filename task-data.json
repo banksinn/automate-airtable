@@ -1,8 +1,14 @@
 {
-  "2025-08-08": [
+  "2025-09-05": [
     {
       "taskItem": "Standup Meeting",
       "taskNote": "Standup Meeting",
+      "type": "meeting",
+      "hours": "1"
+    },
+    {
+      "taskItem": "Review Probation #2",
+      "taskNote": "Review Probation #2",
       "type": "meeting",
       "hours": "1"
     },
@@ -13,10 +19,10 @@
       "hours": "1"
     },
     {
-      "taskItem": "[BE] เพิ่ม toggle สำหรับเปิดปิดการใช้งาน certificate ของ classroom",
-      "taskNote": "support พี่นน และแก้บัค update class certificate",
+      "taskItem": "[BE][admin] Export Classroom: admin สามารถ export ข้อมูล class ได้",
+      "taskNote": "ดึงข้อมูล export class มาใส่ excel เรียบร้อย",
       "type": "work",
-      "hours": "6"
+      "hours": "5"
     }
   ]
 }
