@@ -1,8 +1,14 @@
 {
-  "2025-08-08": [
+  "2025-08-19": [
     {
       "taskItem": "Standup Meeting",
       "taskNote": "Standup Meeting",
+      "type": "meeting",
+      "hours": "1"
+    },
+    {
+      "taskItem": "Weekly Update Tech",
+      "taskNote": "Weekly Update Tech",
       "type": "meeting",
       "hours": "1"
     },
@@ -13,10 +19,10 @@
       "hours": "1"
     },
     {
-      "taskItem": "[BE] เพิ่ม toggle สำหรับเปิดปิดการใช้งาน certificate ของ classroom",
-      "taskNote": "support พี่นน และแก้บัค update class certificate",
+      "taskItem": "[BE] Certificate learner",
+      "taskNote": "วางโครงสร้าง certificate-issue และเริ่มเขียน function generateCertificate",
       "type": "work",
-      "hours": "6"
+      "hours": "5"
     }
   ]
 }
