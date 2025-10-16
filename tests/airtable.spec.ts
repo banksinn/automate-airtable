@@ -28,6 +28,9 @@ test.describe("Airtable automation", () => {
 
         const formattedDate = format(new Date(date), "EEE MMM dd");
         await page.getByRole("textbox", { name: "Date" }).click();
+        for (let i = 0; i < +process.env.AIRTABLE_PREVIOUS_MONTHS!; ++i) {
+          await page.getByRole("button", { name: "Previous Month" }).click();
+        }
         await page.getByRole("gridcell", { name: formattedDate }).click();
         console.log(`Date selected: ${formattedDate}`);
 

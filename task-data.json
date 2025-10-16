@@ -1,14 +1,8 @@
 {
-  "2025-09-05": [
+  "2025-10-16": [
     {
       "taskItem": "Standup Meeting",
       "taskNote": "Standup Meeting",
-      "type": "meeting",
-      "hours": "1"
-    },
-    {
-      "taskItem": "Review Probation #2",
-      "taskNote": "Review Probation #2",
       "type": "meeting",
       "hours": "1"
     },
@@ -19,10 +13,10 @@
       "hours": "1"
     },
     {
-      "taskItem": "[BE][admin] Export Classroom: admin สามารถ export ข้อมูล class ได้",
-      "taskNote": "ดึงข้อมูล export class มาใส่ excel เรียบร้อย",
+      "taskItem": "[BE] POC แยก parent-child ของ department - position",
+      "taskNote": "วาด er-diagram เคส many-to-many",
       "type": "work",
-      "hours": "5"
+      "hours": "6"
     }
   ]
 }
