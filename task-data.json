@@ -1,5 +1,5 @@
 {
-  "2025-10-16": [
+  "2025-12-04": [
     {
       "taskItem": "Standup Meeting",
       "taskNote": "Standup Meeting",
@@ -13,8 +13,8 @@
       "hours": "1"
     },
     {
-      "taskItem": "[BE] POC แยก parent-child ของ department - position",
-      "taskNote": "วาด er-diagram เคส many-to-many",
+      "taskItem": "[Bug] Dashboard แสดงผลข้อมูลคำขอขององค์กรอื่น",
+      "taskNote": "แก้บัค overview แสดงผิด",
       "type": "work",
       "hours": "6"
     }

@@ -17,8 +17,15 @@ test.describe("Airtable automation", () => {
     leave: "Leave",
     other: "Other",
   };
+  type TaskType = keyof typeof TASK_TYPE_MAPPING;
+  interface TaskData {
+    type: TaskType;
+    taskItem: string;
+    taskNote: string;
+    hours: string;
+  }
   Object.entries(testData).forEach(([date, tasks]) => {
-    (tasks as any[]).forEach((taskData) => {
+    (tasks as TaskData[]).forEach((taskData) => {
       test(`Create record for ${date} - ${taskData.taskNote}`, async ({
         page,
       }) => {
