@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test --headed",
-    "test:debug": "playwright test --debug --headed",
-    "test:report": "playwright show-report",
-    "test:codegen": "playwright codegen https://airtable.com/app6PjJAAPwiRw71N/pagWjJnFT2ZQn7eka/form"
+    "test": "pnpm exec playwright install && playwright test --headed",
+    "test:debug": "pnpm exec playwright install && playwright test --debug --headed",
+    "test:report": "pnpm exec playwright install && playwright show-report",
+    "test:codegen": "pnpm exec playwright install && playwright codegen https://airtable.com/app6PjJAAPwiRw71N/pagWjJnFT2ZQn7eka/form"
   },
   "keywords": [],
   "author": "",
